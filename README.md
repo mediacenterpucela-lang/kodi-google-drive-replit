@@ -47,14 +47,14 @@ Para regenerar el repositorio después de publicar los archivos, ejecuta:
 
 ```sh
 python3 tools/build_kodi_repository.py \
-  --base-url "https://raw.githubusercontent.com/USUARIO/REPOSITORIO/main/repository/"
+  --base-url "https://raw.githubusercontent.com/mediacenterpucela-lang/kodi-google-drive-replit/main/repository/"
 ```
 
 El paquete Kodi es Python 2; el script de empaquetado usa Python 3 y no ejecuta
 el addon. Revisa `SOURCE-INFO.md` para las fuentes, revisiones y licencias.
 
-El ZIP del instalador también está disponible en:
-`https://raw.githubusercontent.com/USUARIO/REPOSITORIO/main/repository/repository.kodi-drive-1.0.0.zip`
+Instalador directo:
+https://raw.githubusercontent.com/mediacenterpucela-lang/kodi-google-drive-replit/main/repository/repository.kodi-drive-1.0.0.zip
 
 ## Google OAuth en modo de prueba
 
